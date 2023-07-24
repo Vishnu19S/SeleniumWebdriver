@@ -25,11 +25,7 @@ public class AdactinDemo1 {
 
 			driver.findElement(By.id("login")).click();
 
-			WebElement locationdd = driver.findElement(By.xpath("//*[@id=\"location\"]"));
-			Select ldd = new Select(locationdd);
-
-			ldd.selectByVisibleText("London");
-			Thread.sleep(2000);
+			
 
 			WebElement hoteldd = driver.findElement(By.id("hotels"));
 			Select hdd = new Select(hoteldd);
